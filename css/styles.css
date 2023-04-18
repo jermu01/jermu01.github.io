@@ -1,0 +1,107 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    overflow-y: hidden;
+ }
+
+.section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(201, 180, 180);
+}
+
+/* *, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.carousel {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+}
+
+.slide[data-active] {
+    opacity: 1;
+} */
+
+/* .socials {
+    position: absolute;
+    top: 700px;
+    left: 200px;
+} */
+
+.scrolling {
+    position: center;
+}
+
+.scrolling2 {
+    position: center;
+}
+
+.scrolling3 {
+    position: center;
+}
+
+.scrolling4 {
+    position: center;
+}
+
+.scrolling5 {
+    position: center;
+}
+
+a {
+    color:rgb(201, 180, 180);
+}
+
+a:hover{
+    color:inherit;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px 5px;
+    border-radius: 100%;
+}
+
+.header {
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#infotext1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+}
+
+.section:nth-child(odd){
+    background: rgb(139, 105, 105);
+}
+
+@media only screen and (max-width: 600px) {
+    
+    #infotext1 {
+        font-size: 20px;
+    }
+}
